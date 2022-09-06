@@ -1,1 +1,124 @@
+<!doctype.html>
+<html lang="en">
 
+<head1>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=10">
+	<link rel="stylesheet" href="css/bootstrap.css"
+</head1>
+
+<body>
+	<script src="js/bootstrap.js"></script>
+
+	<center>
+	<p6 class="pull-left">MADE BY: ORNOPIA CHARME</p6>
+	</center>
+
+<div class="container mt-3">
+	<center>
+	<h1 class="pull-left">*** DAILY RECORD ***</h1>
+	<h> A SIMPLE CRUD</h>
+
+<table>
+<table class="table table-responsive table-bordered table-striped table-condensed table-sm table-hover">
+  <thead class="table table-dark">
+   <tr class="table table-info">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Time In</th>
+      <th scope="col">Time Out</th>
+      <th scope="col">Activities</th>
+      <th scope="col">Edit or Delete</th>
+    </tr>
+  </thead>
+
+<tbody>
+    <tr class="table-success">
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>8:00am</td>
+      <td>5:00am</td>
+      <td>Editing</td>
+      <td>
+	<button class="btn btn-success" data-toggle="modal" data-target="#myModal" contenteditable="false">/</button>
+	<button type='button' class='btnDelete'>x</button>
+      </td>
+    </tr>
+
+
+    <tr class="table-success">
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Cruz</td>
+      <td>8:00am</td>
+      <td>5:00am</td>
+      <td>Programming</td>
+      <td>
+	<button class="btn btn-success" data-toggle="modal" data-target="#myModal" contenteditable="false">/</button>
+	<button type='button' class='btnDelete'>x</button>
+      </td>
+    </tr>
+
+    <tr class="table-success">
+      <th scope="row">3</th>
+      <td>Peter</td>
+      <td>Thornton</td>
+      <td>8:00am</td>
+      <td>5:00am</td>
+      <td>Printing</td>
+      <td>
+	<button class="btn btn-success" data-toggle="modal" data-target="#myModal" contenteditable="false">/</button>
+	<button type='button' class='btnDelete'>x</button>
+      </td>
+    </tr>
+</table>
+
+  </tbody>
+
+
+<div class="container mt-3">
+	<h> Add New? </h>
+
+	<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal">
+	Click here
+	</button>
+</div>
+
+<div>
+	<div class="modal" id="myModal">
+	<div class="modal-dialog modal-xl">
+	<div class="modal-content">
+		<div class="modal-header">
+		<h4 class="modal-title">Add New </h4>
+		<button type="button" class="btn-close" data-bs-dismiss="modal">
+		</button>
+		</div>
+
+		<div class="modal-body">
+		Fill out necessary information:
+		</div>
+
+	<div class="input-group input-group-sm mb-3">
+		<span class="input-group-text"> First Name </span>
+		<input type="text" class="form-control">
+		</div>
+	<div class="input-group input-group-sm mb-3">
+		<span class="input-group-text"> Last Name </span>
+		<input type="text" class="form-control">
+		</div>
+	<div class="input-group input-group-sm mb-3">
+		<span class="input-group-text"> Age </span>
+		<input type="text" class="form-control">
+		</div>
+
+	<input type="submit" class="btn btn-success"
+	value="Save">
+
+</div>
+
+</body>
+</div>
+</html>
